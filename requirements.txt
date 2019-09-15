@@ -1,0 +1,4 @@
+# requirements.txt
+pushbullet
+yaml
+requests

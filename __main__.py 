@@ -1,0 +1,9 @@
+
+import yaml
+from pushbullet import Pushbullet
+
+with open('~/src/pb_creds.yaml', 'r') as stream:
+    try:
+        print(yaml.safe_load(stream))
+    except yaml.YAMLError as exc:
+        print(exc)
